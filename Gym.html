@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Hall</title>
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: 'Baloo Bhai', cursive;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: url(back1.jpg);
+            background-repeat: no-repeat;
+            background-size: 1500px 1080px;
+            color: ivory;
+
+        }
+
+        .left {
+            /* border: 2px solid red;*/
+            display: inline-block;
+            padding: 16px 30px;
+            margin-top: 4px;
+            font-size: larger;
+            margin-top: 5px;
+            margin-right: 50px;
+            text-align: center;
+        }
+
+        .logo img {
+            align-items: center;
+            height: 50px;
+            width: 70px;
+        }
+
+        .mid {
+            /* border: 2px solid yellow;*/
+            display: inline-block;
+            position: absolute;
+            top: 10px;
+            right: auto;
+            font-size: larger;
+        }
+
+        .right {
+            /* border: 2px solid rgb(23, 24, 23);*/
+            display: block;
+            float: right;
+            font-size: larger;
+            margin-top: 40px;
+            margin-right: 50px;
+        }
+
+        .navb li {
+            list-style-type: none;
+            float: left;
+            padding: 16px 30px;
+        }
+
+        .navb li a {
+            text-decoration: none;
+            color: ivory;
+        }
+
+        .btn {
+            font-family: 'Baloo Bhai', cursive;
+            margin: 0px 9px;
+            background-color: black;
+            color: white;
+            padding: 4px 14px;
+            border: 2px solid grey;
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+
+        }
+
+        .btn a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .btn:hover {
+            background-color: rgb(45, 169, 207);
+        }
+
+        .btn a:visited {
+            color: rgb(99, 181, 228);
+        }
+
+        a:active {
+            color: yellow;
+        }
+
+        .mid ul a:hover {
+            color: rgb(214, 12, 52);
+        }
+
+        .mid ul :active {
+            background-color: darkgray;
+        }
+
+        .container {
+            border: 3px solid grey;
+            display: block;
+            width: 600px;
+            padding: 20px;
+            font-size: larger;
+            overflow: hidden;
+            margin: 20px;
+            text-align: center;
+            text-justify: inter-word;
+            background-color: black;
+        }
+
+        #box1 {
+            border-radius: 100px 70px;
+        }
+
+        #box2 {
+            position: absolute;
+            top: 800px;
+            left: 500px;
+            right: 50px;
+            bottom: auto;
+            border-radius: 70px 100px;
+        }
+
+        #form1 {
+            border: 2px solid white;
+            display: block;
+            width: 570px;
+            margin: auto;
+            border-radius: 50px 60px;
+            text-align: center;
+
+        }
+
+        .form input {
+            padding: 15px;
+            margin: 4px 0px;
+            width: 500px;
+            background-color: rgb(224, 203, 203);
+            color: rgb(155, 97, 22);
+            text-align: center;
+            font-size: 15px;
+        }
+
+        .form button {
+            padding: 15px;
+            width: 500px;
+            margin-bottom: 10px;
+            margin-top: 4px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="left">
+        <div class="logo"> <img src="logo1.png"></div>
+
+        Fitness Hall
+    </div>
+    <div class="mid">
+        <ul class="navb">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Fitness Plan</a></li>
+        </ul>
+    </div>
+    <div class="right">
+        <button class="btn">Call Us</button>
+        <button class="btn"><a href="mailto: sumankhushi50@gmail.com">Email Us</a></button>
+    </div>
+
+    <div class="form" id="form1">
+        <form action="MAILTO:sumankhushi50@gmail.com">
+            <h1>Join Our Gym</h1>
+            <input type="text" name="Name" placeholder="Enter Your Name">
+            <input type="text" name="Email" placeholder="Enter Your Email">
+            <input type="text" name="Phone" placeholder="Enter Your Number">
+            <input type="text" name="Weight" placeholder="Enter Your Weight">
+            <button class="btn"><a href="mailto: sumankhushi50@gmail.com">SUBMIT DETAILS</a></button>
+        </form>
+    </div>
+    <div class="container" id="box1">
+        Physical exercises are great for our muscles, heart, and lungs. Some more advantages of the physical activities
+        are;
+        it builds our bones strong, saves us from obesity by promoting a healthy weight, saves us from diabetes, helps
+        us to
+        build healthy habits, keeps us away from cancer, prevents high blood pressure, and other major problems.
+    </div>
+    <div class="container" id="box2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore temporibus illo
+        obcaecati labore, libero ea deserunt modi saepe aut cum tenetur delectus hic vitae, quae nemo? Nemo facilis ut
+        hic dolorum non distinctio veritatis cumque, architecto eum quo, impedit aspernatur.
+    </div>
+</body>
+
+</html>

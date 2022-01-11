@@ -1,0 +1,149 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+/* Navbar section */
+.nav::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 4.5rem;
+    width:100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+/* nav{
+    position: relative;
+} */
+#navul{
+      display: flex;
+      cursor: pointer;
+
+}
+.nitems a{
+    text-decoration: none;
+    color:whitesmoke ;
+    padding: 25px 25px;
+    margin-top: 1.5em;
+}
+
+.nitems{
+    padding: 10px 10px;
+    list-style: none;
+    font-size: 19px;
+    /* margin-top: 1.5em; */
+    margin: auto;
+}
+.icon img{
+    width: 4em;
+    height: 4em;
+    margin: 5px 5px;
+
+}
+.nav li a:hover{
+    background-color: white;
+    color: black;
+
+}
+.nav li a:active{
+    background-color:brown;
+    color: rgb(128, 108, 108);
+
+}
+#navul li input{
+    border-radius: 8px;
+    border: 2px solid grey;
+    background-color: black;
+    height: 2.5em;
+    color: blanchedalmond;
+    font-size: 16px;
+    padding: 5px;
+}
+/* Home Section */
+#home::before{
+    content: "";
+    background: url("bg1.jpg");
+    background-size: cover;
+    z-index: -1;
+    height:100%;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    opacity: 0.9;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    /* height: 500px; */
+    /* align-content: center;
+    justify-content: center; */
+    justify-items: center;
+    align-content: center;
+    margin-top: 2.5em;
+    /* border:2px solid black; */
+}
+.order{
+    width: 10rem;
+    height: 3rem;
+    margin: 1.5rem auto;
+    cursor: pointer;
+    background-color: tomato;
+    border: 2px solid black;
+    padding: 6px;
+    border-radius: 60px 100px;
+    box-shadow: 6px 6px 8px tomato;
+
+}
+/* Product section */
+/* #products::before{
+    content: "";
+    background: url("bg2.jpg");
+    background-size: cover;
+    z-index: -1;
+    height:100%;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    opacity: 0.9;
+} */
+
+/* utility class */
+.h1-primary{
+    color: white;
+    font-size: 45px;
+    /* align-content: center; */
+    text-align: center;
+   margin-bottom: 35px;
+   text-shadow: 5px 5px 6px whitesmoke;
+
+}
+.box{
+    font-size: 22px;
+    font-weight: bolder;
+    color: white;
+    align-content: center;
+    display: block;
+    text-align: center;
+    /* text-shadow: 4px 4px 4px whitesmoke; */
+
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+
+
+
+
+
+
+
+
